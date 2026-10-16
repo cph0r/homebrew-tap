@@ -13,6 +13,6 @@ class Plumb < Formula
   end
 
   test do
-    assert_match "plumb <command>", shell_output("#{bin}/plumb")
+    assert_match "plumb <command>", shell_output(bin/"plumb")
   end
 end
