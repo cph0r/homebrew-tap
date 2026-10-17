@@ -1,9 +1,8 @@
 # cph0r/homebrew-tap
 
-Homebrew formulae for [Plumb](https://github.com/cph0r/plumb): know what your code really does, with proof, before you change it.
+Homebrew formulae for [Veridic](https://github.com/cph0r/veridic) (formerly Plumb): know what your code really does, with proof, before you change it.
 
 ```bash
-brew install cph0r/tap/plumb
+brew install cph0r/tap/veridic
+cd your-repo && veridic init
 ```
-
-Plumb needs a [CodeGraph](https://github.com/colbymchenry/codegraph) index of your repo (`npm i -g @colbymchenry/codegraph && codegraph init`).
