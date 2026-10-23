@@ -1,8 +1,8 @@
 class Veridic < Formula
   desc "Specs for every part of your app, kept true by the code"
   homepage "https://github.com/cph0r/veridic"
-  url "https://registry.npmjs.org/veridic/-/veridic-0.9.0.tgz"
-  sha256 "b59d225c081a7ec71359fce3f5c8395081d4f9febcc36bd6280a4c035b9f3ec1"
+  url "https://registry.npmjs.org/veridic/-/veridic-0.10.0.tgz"
+  sha256 "0b3ccf3fa7a1583cc67a7c05756f057eec00f60efb4b4c13bfc0e92a01bef321"
   license "MIT"
 
   depends_on "node"
